@@ -26,3 +26,7 @@ section{
 .product_title_box:hover {
     transform: scale(1.1);
 }
+
+.shop_logo{
+    width: 120px;
+}
