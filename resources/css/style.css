@@ -36,3 +36,31 @@ section{
     display: flex;
     justify-content: space-around;
 }
+
+
+@media (min-width:0) and (max-width:575px){
+    section{
+        padding: 10px 0;
+    }
+    .shop_box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .shop{
+        border-top: 1px solid #ccc;
+        padding: 4px 0;
+    }
+    
+}
+
+@media (min-width:575.1px) and (max-width:767px){
+   
+
+}
+
+@media (min-width:767.1px) and (max-width:991px){
+    
+}
+@media (min-width:991.1px) and (max-width:1200px){
+    
+}
