@@ -13,7 +13,6 @@
                       @foreach ($categories as $category)
                         @php
                           $subcategories = getSubcategories($category->category);
-                        
                         @endphp
                         <li class="list-group-item 
                         @if($subcategories->count() > 0)
@@ -24,15 +23,16 @@
                           @if($subcategories->count() > 0)
                           dropdown-toggle
                           @endif
-                          " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ ucfirst($category->category) }}
                           </a>
                           @if($subcategories->count() > 0)
                             <ul class="dropdown-menu">
-                              @foreach ($subcategories as $subcat)        
-                              <li><a class="dropdown-item" target="_blank" href="#">{{ ucfirst($subcat->subcategory) }}</a></li>
+                              @foreach ($subcategories as $subcat)      
+                              <li><a class="dropdown-item" href="{{ route("cat_subcat",
+                              ["cat" => $category->category,
+                              "subcat" => $subcat->subcategory]) }}">{{ ucfirst($subcat->subcategory) }}</a></li>
                               @endforeach
-                             
                             </ul>
                           @endif
                         </li>
@@ -44,6 +44,15 @@
             <!-- Products -->
             <div class="col-md-10 col-12">
                 <h5 class="my-2">Products</h5>
+                @if (isset($cat))
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page">{{ $cat }}</li>
+                    <li class="breadcrumb-item" aria-current="page">{{ ucfirst($subcat->subcategory) }}</li>
+                  </ol>
+                </nav>
+                @endif
                 <div class="row">
                     <!-- Single Product  -->
                     @foreach ($products as $product)

@@ -12,14 +12,14 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="#">দ্রব্যমূল্য.com</a>
+          <a class="navbar-brand" href="/">দ্রব্যমূল্য.com</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">দ্রব্যমূল্য</a>
+                <a class="nav-link active" aria-current="page" href="/">দ্রব্যমূল্য</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">যোগাযোগ</a>
