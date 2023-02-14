@@ -9,7 +9,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-         $products = MainTable::with(['link','price'])->paginate(4);
-        return view('frontend.home',compact('products'));
+        $categories =  MainTable::select('category')->groupBy('category')->get();
+        $products = MainTable::with(['link','price'])->paginate(4);
+        return view('frontend.home',compact('products','categories'));
     }
 }
