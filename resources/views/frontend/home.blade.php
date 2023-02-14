@@ -51,8 +51,6 @@
                                       <div class="card-body">
                                         <div class="product_info">
                                             <h3>{{ $product->item_name }}</h3>
-                                            <p>Category : {{ ucfirst($product->category )}}</p>
-                                            <p>Subcategory : {{ ucfirst($product->subcategory) }}</p>
                                             <p>Weight/Quantity : {{ ucfirst($product->weight) }}</p>
                                         </div>
                                         <div class="shop_box ">
