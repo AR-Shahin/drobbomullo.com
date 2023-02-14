@@ -29,8 +29,8 @@ section{
 }
 
 .shop_logo{
-    width: 110px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
 }
 
 .shop_box{
@@ -40,7 +40,9 @@ section{
 .product_info p{
     margin-bottom: 5px;
 }
-
+.shop p{
+    margin-bottom: 0;
+}
 .shop img{
     margin-bottom: 10px;
 }
@@ -55,9 +57,19 @@ footer p{
     section{
         padding: 10px 0;
     }
+    .card-body{
+        padding: 0 5px;
+    }
     .shop_box{
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: center;
+        width: 100%;
+        overflow-y: scroll;
+        
+    }
+    .shop_logo{
+        width: 70px;
+        height: 25px;
     }
     .shop{
         border-top: 1px solid #ccc;

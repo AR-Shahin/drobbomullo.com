@@ -10,6 +10,7 @@
 
   </head>
   <body>
+    <div style="overflow:hidden">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <a class="navbar-brand" href="/">দ্রব্যমূল্য.com</a>
@@ -48,6 +49,7 @@
           </div>
         </div>
       </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     @stack('js')
   </body>

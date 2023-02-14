@@ -114,19 +114,7 @@
                     <!-- Single Product End -->
 
                 </div> <!-- Row End -->
-                {{-- <nav aria-label="Page navigation example mt-3">
-                    <ul class="pagination justify-content-center">
-                      <li class="page-item disabled">
-                        <a class="page-link">Previous</a>
-                      </li>
-                      <li class="page-item"><a class="page-link" target="_blank" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" target="_blank" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" target="_blank" href="#">3</a></li>
-                      <li class="page-item">
-                        <a class="page-link" target="_blank" href="#">Next</a>
-                      </li>
-                    </ul>
-                  </nav> --}}
+                
             </div>
         </div>
     </div>
