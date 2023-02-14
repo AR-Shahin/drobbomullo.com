@@ -43,7 +43,7 @@
               <p class="p-0">Copyright - @ 2023 </p>
             </div>
             <div class=" col-6">
-              <p class="p-0">Design and Developed by <a href="https://www.facebook.com/arshahin200">Shahin</a> </p>
+              <p class="p-0">Design and Developed by <a href="https://www.facebook.com/arshahin200">AR Shahin</a> </p>
             </div>
           </div>
         </div>
