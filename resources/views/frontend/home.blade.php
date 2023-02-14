@@ -10,20 +10,33 @@
                 <h5 class="my-2">Categories</h5>
                 <div class="categories">
                     <ul class="list-group">
-                        <li class="list-group-item " aria-disabled="true">
-                            <a target="_blank" href="" class="btn-link">Food</a>
-                        </li>
-                        <li class="list-group-item dropdown">
-                          <a class="nav-link dropdown-toggle" target="_blank" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Vegetables
+                      @foreach ($categories as $category)
+                        @php
+                          $subcategories = getSubcategories($category->category);
+                        
+                        @endphp
+                        <li class="list-group-item 
+                        @if($subcategories->count() > 0)
+                        dropdown
+                        @endif
+                        ">
+                          <a class="nav-link 
+                          @if($subcategories->count() > 0)
+                          dropdown-toggle
+                          @endif
+                          " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ ucfirst($category->category) }}
                           </a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" target="_blank" href="#">Carrot</a></li>
-                            <li><a class="dropdown-item" target="_blank" href="#">Cabbage</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" target="_blank" href="#">Ladies Finger</a></li>
-                          </ul>
+                          @if($subcategories->count() > 0)
+                            <ul class="dropdown-menu">
+                              @foreach ($subcategories as $subcat)        
+                              <li><a class="dropdown-item" target="_blank" href="#">{{ ucfirst($subcat->subcategory) }}</a></li>
+                              @endforeach
+                             
+                            </ul>
+                          @endif
                         </li>
+                      @endforeach
                       </ul>
                 </div>
             </div>
