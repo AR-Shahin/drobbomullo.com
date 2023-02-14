@@ -28,7 +28,7 @@ section{
 }
 
 .shop_logo{
-    width: 120px;
+    width: 110px;
     height: 40px;
 }
 
@@ -37,6 +37,12 @@ section{
     justify-content: space-around;
 }
 
+footer{
+    padding: 10px 0;
+}
+footer p{
+    margin-bottom: 0;
+}
 
 @media (min-width:0) and (max-width:575px){
     section{
