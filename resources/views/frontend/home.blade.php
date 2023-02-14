@@ -11,17 +11,17 @@
                 <div class="categories">
                     <ul class="list-group">
                         <li class="list-group-item " aria-disabled="true">
-                            <a href="" class="btn-link">Food</a>
+                            <a target="_blank" href="" class="btn-link">Food</a>
                         </li>
                         <li class="list-group-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="nav-link dropdown-toggle" target="_blank" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Vegetables
                           </a>
                           <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Carrot</a></li>
-                            <li><a class="dropdown-item" href="#">Cabbage</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="#">Carrot</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="#">Cabbage</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Ladies Finger</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="#">Ladies Finger</a></li>
                           </ul>
                         </li>
                       </ul>
@@ -49,35 +49,37 @@
                                     </div>
                                     <div class="col-md-8 align-self-center">
                                       <div class="card-body">
-                                        <div>
+                                        <div class="product_info">
                                             <h3>{{ $product->item_name }}</h3>
-                                            <p>Weight : {{ $product->weight }}</p>
+                                            <p>Category : {{ ucfirst($product->category )}}</p>
+                                            <p>Subcategory : {{ ucfirst($product->subcategory) }}</p>
+                                            <p>Weight/Quantity : {{ ucfirst($product->weight) }}</p>
                                         </div>
                                         <div class="shop_box ">
                                             <div class="shop">
                                                 <img src="{{ asset('img/chal-dal.png') }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ 50.00</strong></p>
-                                                <a href="" class="btn-link">Buy</a>
+                                                <p>Price : <strong>৳ {{ $product->price->chaldal_price ?? "null" }}</strong></p>
+                                                <a target="_blank" href="{{ $product->link->chaldal_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/paikari.png") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ 20.00</strong></p>
-                                                <a href="" class="btn-link">Buy</a>
+                                                <p>Price : <strong>৳ {{ $product->price->paikaree_price ?? "null"}}</strong></p>
+                                                <a target="_blank" href="{{ $product->link->paikaree_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/othoba.webp") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ 10.00</strong></p>
-                                                <a href="" class="btn-link">Buy</a>
+                                                <p>Price : <strong>৳ {{ $product->price->othoba_price ?? "null"}}</strong></p>
+                                                <a target="_blank" href="{{ $product->link->othoba_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/meena.png") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ 10.00</strong></p>
-                                                <a href="" class="btn-link">Buy</a>
+                                                <p>Price : <strong>৳ {{ $product->price->meenaclick_price ?? "null" }}</strong></p>
+                                                <a target="_blank" href="{{ $product->link->meenaclick_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/jogan.png") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ 20.00</strong></p>
-                                                <a href="" class="btn-link">Buy</a>
+                                                <p>Price : <strong>৳ {{ $product->price->jogaan_price ?? "null"}}</strong></p>
+                                                <a target="_blank" href="{{ $product->link->jogaan_link}}" class="btn-link">Buy</a>
                                             </div>
                                         </div>
                                       </div>
@@ -97,11 +99,11 @@
                       <li class="page-item disabled">
                         <a class="page-link">Previous</a>
                       </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" target="_blank" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" target="_blank" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" target="_blank" href="#">3</a></li>
                       <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
+                        <a class="page-link" target="_blank" href="#">Next</a>
                       </li>
                     </ul>
                   </nav> --}}

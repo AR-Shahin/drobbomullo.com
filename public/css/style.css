@@ -37,7 +37,13 @@ section{
     display: flex;
     justify-content: space-around;
 }
+.product_info p{
+    margin-bottom: 5px;
+}
 
+.shop img{
+    margin-bottom: 10px;
+}
 footer{
     padding: 10px 0;
 }
