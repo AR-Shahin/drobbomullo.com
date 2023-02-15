@@ -10,3 +10,6 @@ Route::get("/ars",[HomeController::class,'index']);
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 
+Route::get("/test",function (){
+    return 1;
+});
