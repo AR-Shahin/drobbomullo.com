@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#show").text("data");
+                 $("#clickbutton").click(function(){
+                        $("#show").text("Hello world1st");
+                        $.ajax({
+                        type: "GET",
+                        url: "hello.php",
+                        dataType: "html",
+                        success: function (data) {
+                            $("#show").html(data);
+    
+                                }
+                        });
+                    });   
+                    $.ajax({
+                        type: "GET",
+                        url: "hello.php",
+                        dataType: "html",
+                        success: function (data) {
+                            $("#anothershow").html(data);
+    
+                                }
+                        });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <button id="clickbutton">click</button>
+        <p id="show" style="font-size: 30px;">fahim</p>
+        <p id="anothershow">fahim</p>
+        
+        <p>$("#clickbutton").click(function(){
+    $("#show").text("Hello world!");
+});
+        
+        
+        
+$(document).ready(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "https://drobbomullo.com/hello.php",
+                    dataType: "html",
+                    success: function (data) {
+                        $("#anothershow").html(data);
+
+                            }
+                    });
+            });</p>
+    </body>
+</html>
+
