@@ -10,7 +10,7 @@ class HomeController extends Controller
     public function index()
     {
         $categories =  MainTable::select('category')->groupBy('category')->get();
-        $products = MainTable::with(['link','price'])->paginate(4);
+        $products = MainTable::with(['link','price'])->paginate(10);
         return view('frontend.home',compact('products','categories'));
     }
 
@@ -20,7 +20,7 @@ class HomeController extends Controller
         $products = MainTable::with(['link','price'])
                                 ->whereCategory($cat)
                                 ->whereSubcategory($subcat)
-                                ->paginate(4);
+                                ->paginate(10);
         return view('frontend.home',compact('products','categories','cat',"subcat"));
     }
 }
