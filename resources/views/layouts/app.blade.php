@@ -40,11 +40,11 @@
       <footer class="bg-light text-center">
         <div class="container">
           <div class="row">
-            <div class="col-6 ">
+            <div class="col-12 col-md-6 ">
               <p class="p-0">Copyright - @ 2023 </p>
             </div>
-            <div class=" col-6">
-              <p class="p-0">Design and Developed by <a href="https://www.facebook.com/arshahin200">AR Shahin</a> </p>
+            <div class=" col-12 col-md-6">
+              <p class="p-0">Design and Developed by <a target="_blank" href="https://www.facebook.com/arshahin200">AR Shahin</a> </p>
             </div>
           </div>
         </div>
