@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 body{
-   
+   background: #fceebde8;
+}
+.bg_red{
+    background: #FF686D;
 }
 section{
     padding: 40px 0;
 }
 .main_img{
     width: 50%;
+    transition: .6s;
+}
+.product_img_box:hover .main_img{
+    transform: scale(1.2);
 }
 .product_img_box{
     position: relative;
