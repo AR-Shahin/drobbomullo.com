@@ -4,7 +4,7 @@
 
 @section("body")
 <section>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 col-12">
                 <h5 class="my-2">Categories</h5>
@@ -53,16 +53,20 @@
                   </ol>
                 </nav>
                 @endif
+
                 <div class="row">
                     <!-- Single Product  -->
                     @foreach ($products as $product)
-                    <div class="col-12 my-2">
+                    <div class="col-12 my-2" >
                         <div class="card">
                             <div class="card-body">
                                 <div class="row g-0">
                                     <div class="col-md-4 product_img_box align-self-center">
+
+                                        {{-- {{ dd(asset("/public/image/7-Up-Can.jpg")) }} --}}
                                         <div class="product_img text-center">
-                                            <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="...">
+                                            {{-- <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="..."> --}}
+                                            <img src="https://drobbomullo.com/img/egg.jpeg" class="img-fluid rounded-start main_img" alt="...">
                                         </div>
                                       <div class="product_title_box">
                                         {{-- <h3>{{ $product->item_name }}</h3>
