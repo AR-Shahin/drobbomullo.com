@@ -63,7 +63,7 @@
                                 <div class="row g-0">
                                     <div class="col-md-4 product_img_box align-self-center">
 
-                                        {{-- {{ dd(asset("/public/image/7-Up-Can.jpg")) }} --}}
+                        
                                         <div class="product_img text-center">
                                             {{-- <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="..."> --}}
                                             <img src="https://drobbomullo.com/image/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
