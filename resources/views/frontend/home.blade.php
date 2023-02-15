@@ -66,7 +66,7 @@
                         
                                         <div class="product_img text-center">
                                             {{-- <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="..."> --}}
-                                            <img src="https://drobbomullo.com/image/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
+                                            <img src="https://drobbomullo.com/images/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
 
                                         </div>
                                       <div class="product_title_box">
