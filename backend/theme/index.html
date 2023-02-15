@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>দ্রব্যমূল্য.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">দ্রব্যমূল্য.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">দ্রব্যমূল্য</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">যোগাযোগ</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-12">
+                    <h5 class="my-2">Categories</h5>
+                    <div class="categories">
+                        <ul class="list-group">
+                            <li class="list-group-item " aria-disabled="true">
+                                <a href="" class="btn-link">Food</a>
+                            </li>     
+                            <li class="list-group-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Vegetables
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Carrot</a></li>
+                                <li><a class="dropdown-item" href="#">Cabbage</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Ladies Finger</a></li>
+                              </ul>
+                            </li>          
+                          </ul>
+                    </div>
+                </div>
+
+                <!-- Products -->
+                <div class="col-md-10 col-12">
+                    <h5 class="my-2">Products</h5>
+                    <div class="row">
+                        <!-- Single Product  -->
+                        <div class="col-12 my-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row g-0">
+                                        <div class="col-md-4 product_img_box">
+                                            <div class="product_img">
+                                                <img src="./resources/img/potato.jpeg" class="img-fluid rounded-start" alt="...">
+                                            </div>
+                                          <div class="product_title_box">
+                                            <h3>Potato</h3>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-8 align-self-center">
+                                          <div class="card-body">
+                                            <div class="shop_box ">
+                                                <div class="shop">
+                                                    <img src="./resources/img/chal-dal.png" alt="" class="shop_logo">
+                                                    <p>Price : <strong>$ 50.00</strong></p>
+                                                    <a href="" class="btn-link">Buy</a>
+                                                </div>
+                                                <div class="shop">
+                                                    <img src="./resources/img/paikari.png" alt="" class="shop_logo">
+                                                    <p>Price : <strong>$ 20.00</strong></p>
+                                                    <a href="" class="btn-link">Buy</a>
+                                                </div>
+                                                <div class="shop">
+                                                    <img src="./resources/img/othoba.webp" alt="" class="shop_logo">
+                                                    <p>Price : <strong>$ 10.00</strong></p>
+                                                    <a href="" class="btn-link">Buy</a>
+                                                </div>
+                                                <div class="shop">
+                                                    <img src="./resources/img/meena.png" alt="" class="shop_logo">
+                                                    <p>Price : <strong>$ 10.00</strong></p>
+                                                    <a href="" class="btn-link">Buy</a>
+                                                </div>
+                                                <div class="shop">
+                                                    <img src="./resources/img/jogan.png" alt="" class="shop_logo">
+                                                    <p>Price : <strong>$ 20.00</strong></p>
+                                                    <a href="" class="btn-link">Buy</a>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product End -->
+  
+                    </div> <!-- Row End -->
+                    <nav aria-label="Page navigation example mt-3">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item disabled">
+                            <a class="page-link">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="bg-light text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 ">
+              <p class="p-0">Copyright - @ 2023 </p>
+            </div>
+            <div class=" col-6">
+              <p class="p-0">Design and Developed by <a href="https://www.facebook.com/arshahin200">Shahin</a> </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
