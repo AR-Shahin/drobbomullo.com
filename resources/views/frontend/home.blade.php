@@ -14,12 +14,12 @@
                         @php
                           $subcategories = getSubcategories($category->category);
                         @endphp
-                        <li class="list-group-item 
+                        <li class="list-group-item
                         @if($subcategories->count() > 0)
                         dropdown
                         @endif
                         ">
-                          <a class="nav-link 
+                          <a class="nav-link
                           @if($subcategories->count() > 0)
                           dropdown-toggle
                           @endif
@@ -28,7 +28,7 @@
                           </a>
                           @if($subcategories->count() > 0)
                             <ul class="dropdown-menu">
-                              @foreach ($subcategories as $subcat)      
+                              @foreach ($subcategories as $subcat)
                               <li><a class="dropdown-item" href="{{ route("cat_subcat",
                               ["cat" => $category->category,
                               "subcat" => $subcat->subcategory]) }}">{{ ucfirst($subcat->subcategory) }}</a></li>
@@ -78,27 +78,27 @@
                                         <div class="shop_box ">
                                             <div class="shop">
                                                 <img src="{{ asset('img/chal-dal.png') }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ {{ $product->price->chaldal_price ?? "null" }}</strong></p>
+                                                <p><strong>৳ {{ $product->price->chaldal_price ?? "null" }}</strong></p>
                                                 <a target="_blank" href="{{ $product->link->chaldal_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/paikari.png") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ {{ $product->price->paikaree_price ?? "null"}}</strong></p>
+                                                <p><strong>৳ {{ $product->price->paikaree_price ?? "null"}}</strong></p>
                                                 <a target="_blank" href="{{ $product->link->paikaree_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/othoba.webp") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ {{ $product->price->othoba_price ?? "null"}}</strong></p>
+                                                <p><strong>৳ {{ $product->price->othoba_price ?? "null"}}</strong></p>
                                                 <a target="_blank" href="{{ $product->link->othoba_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/meena.png") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ {{ $product->price->meenaclick_price ?? "null" }}</strong></p>
+                                                <p><strong>৳ {{ $product->price->meenaclick_price ?? "null" }}</strong></p>
                                                 <a target="_blank" href="{{ $product->link->meenaclick_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
                                                 <img src="{{ asset("img/jogan.png") }}" alt="" class="shop_logo">
-                                                <p>Price : <strong>৳ {{ $product->price->jogaan_price ?? "null"}}</strong></p>
+                                                <p><strong>৳ {{ $product->price->jogaan_price ?? "null"}}</strong></p>
                                                 <a target="_blank" href="{{ $product->link->jogaan_link}}" class="btn-link">Buy</a>
                                             </div>
                                         </div>
@@ -114,7 +114,7 @@
                     <!-- Single Product End -->
 
                 </div> <!-- Row End -->
-                
+
             </div>
         </div>
     </div>

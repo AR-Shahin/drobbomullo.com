@@ -65,11 +65,11 @@ footer p{
         text-align: center;
         width: 100%;
         overflow-y: scroll;
-        
+
     }
     .shop_logo{
-        width: 70px;
-        height: 25px;
+        width: 60px;
+        height: 20px;
     }
     .shop{
         border-top: 1px solid #ccc;
