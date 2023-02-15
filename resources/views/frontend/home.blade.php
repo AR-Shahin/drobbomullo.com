@@ -66,11 +66,8 @@
                                         {{-- {{ dd(asset("/public/image/7-Up-Can.jpg")) }} --}}
                                         <div class="product_img text-center">
                                             {{-- <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="..."> --}}
-<<<<<<< HEAD
                                             <img src="https://drobbomullo.com/image/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
-=======
-                                            <img src="https://drobbomullo.com/img/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
->>>>>>> refs/remotes/origin/main
+
                                         </div>
                                       <div class="product_title_box">
                                         {{-- <h3>{{ $product->item_name }}</h3>
