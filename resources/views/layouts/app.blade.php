@@ -71,7 +71,7 @@ footer p{
         padding: 0 5px;
     }
     .shop_box{
-    
+
         text-align: center;
         width: 100%;
         overflow-y: scroll;
@@ -136,7 +136,7 @@ footer p{
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 ">
-              <p class="p-0">Copyright - @ 2023 </p>
+              <p class="p-0">Copyright - @ {{ date('Y') }} </p>
             </div>
             <div class=" col-12 col-md-6">
               <p class="p-0">Design and Developed by <a target="_blank" href="https://www.facebook.com/arshahin200">AR Shahin</a> </p>
