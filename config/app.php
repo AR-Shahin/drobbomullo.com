@@ -56,7 +56,7 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL', 'https://ars.drobbomullo.com'),
+    'asset_url' => env('ASSET_URL', 'https://drobbomullo.com'),
 
     /*
     |--------------------------------------------------------------------------
