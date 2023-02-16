@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
+        .bg_red{
+        background: #78e08f5e;
+        }
         .list-group-item,.dropdown-menu{
             border: none;
             padding-bottom: 2px;
@@ -17,9 +20,9 @@
             list-style: none;
         }
         .searchingItems{
-                    cursor: pointer;
-                }
-            #searchValue{
+            cursor: pointer;
+        }
+        #searchValue{
             background: #dff9fb;
             position: absolute;
             right: 0;
@@ -179,7 +182,7 @@ footer p{
               <button class="btn btn-outline-success" type="submit">
                 <i class="fa fa-search"></i>
               </button>
-              <button class="btn btn-sm btn-warning" id="clearBtn">
+              <button class="btn btn-sm btn-outline-success" id="clearBtn" style="margin-left: 5px">
                 <i class="fa fa-refresh"></i>
               </button>
             </form>

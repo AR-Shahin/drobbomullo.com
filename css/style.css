@@ -8,9 +8,7 @@
 body{
    background: #78e08fd0;
 }
-.bg_red{
-    background: #dff9fb;
-}
+
 #searchValue{
     background: red;
     position: absolute;
