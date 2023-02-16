@@ -3,10 +3,10 @@
 @section('title',"Home")
 
 @section("body")
-<section>
+<section class="homeSection">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2 col-12">
+            <div class="col-md-2 col-12 homeLeft">
                 <h5 class="my-2">Categories</h5>
                 <div class="categories">
                     <ul class="list-group">
@@ -42,7 +42,7 @@
             </div>
 
             <!-- Products -->
-            <div class="col-md-10 col-12">
+            <div class="col-md-10 col-12 homeRight" >
                 <h5 class="my-2">Products</h5>
                 @if (isset($cat))
                 <nav aria-label="breadcrumb">
@@ -57,13 +57,11 @@
                 <div class="row">
                     <!-- Single Product  -->
                     @foreach ($products as $product)
-                    <div class="col-12 my-2" >
+                    <div class="col-12 my-2 each_item" >
                         <div class="card">
                             <div class="card-body">
                                 <div class="row g-0">
                                     <div class="col-md-4 product_img_box align-self-center">
-
-                        
                                         <div class="product_img text-center">
                                             {{-- <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="..."> --}}
                                             <img src="https://drobbomullo.com/images/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
@@ -74,7 +72,7 @@
                                         <p>Weight : {{ $product->weight }}</p> --}}
                                       </div>
                                     </div>
-                                    <div class="col-md-8 align-self-center">
+                                    <div class="col-md-8 align-self-center product_details" style="">
                                       <div class="card-body">
                                         <div class="product_info">
                                             <h3>{{ $product->item_name }}</h3>

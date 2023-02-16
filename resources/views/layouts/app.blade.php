@@ -16,26 +16,40 @@
         ul{
             list-style: none;
         }
-.searchingItems{
-            cursor: pointer;
+        .searchingItems{
+                    cursor: pointer;
+                }
+            #searchValue{
+            background: #dff9fb;
+            position: absolute;
+            right: 0;
+            top: 8%;
+            right: 5%;
+            padding: 5px;
+            z-index: 100;
         }
-    #searchValue{
-    background: #dff9fb;
-    position: absolute;
-    right: 0;
-    top: 8%;
-    right: 5%;
-    padding: 5px;
-    z-index: 100;
-   }
-   @media (min-width:0) and (max-width:575px){
-    #searchValue{
-        top: 21%;
-        left: 0;
-        right: 0;
-    }
-   }
-    </style>
+        .homeSection{
+            background: #c7ecee;
+            padding: 0px;
+        }
+        .homeSection h5{
+            padding-top: 10px;
+        }
+        .homeLeft{
+            background: #dff9fb;
+            border-radius: 5px;
+        }
+        .each_item .card-body , .product_details{
+            background:  #78e08f5e;
+        }
+        @media (min-width:0) and (max-width:575px){
+            #searchValue{
+                top: 21%;
+                left: 0;
+                right: 0;
+            }
+        }
+            </style>
     <style>
         /*
 *{
