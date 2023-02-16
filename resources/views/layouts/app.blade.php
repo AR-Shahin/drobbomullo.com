@@ -26,6 +26,8 @@ ul{
    @media (min-width:0) and (max-width:575px){
     #searchValue{
         top: 21%;
+        left: 0;
+        right: 0;
     }
    }
     </style>
@@ -199,6 +201,7 @@ footer p{
         searchValue.style.display = 'none';
         searchKey.addEventListener("keyup",async function() {
             let key = this.value;
+            
             if(key){
                 let url = `${base_url}/auto-search-product/${key}`;
                 searchValue.style.display = 'block';
