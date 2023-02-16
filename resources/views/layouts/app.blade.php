@@ -23,6 +23,11 @@ ul{
     padding: 5px;
     z-index: 100;
    }
+   /* @media (min-width:0) and (max-width:575px){
+    #searchValue{
+        top: 21%;
+    }
+   } */
     </style>
     <style>
         /*
