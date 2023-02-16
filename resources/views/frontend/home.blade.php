@@ -54,6 +54,24 @@
                 </nav>
                 @endif
 
+                @if (request('key'))
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item" aria-current="page">You've Search :
+                        <b>{{ request('key') }}</b>
+                    </li>
+                  </ol>
+                </nav>
+                @endif
+
+                @if (count($products) == 0)
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Sorry! No Product available on this keyword :)</h4>
+                        </div>
+                    </div>
+                @endif
                 <div class="row">
                     <!-- Single Product  -->
                     @foreach ($products as $product)
@@ -63,14 +81,9 @@
                                 <div class="row g-0">
                                     <div class="col-md-4 product_img_box align-self-center">
                                         <div class="product_img text-center">
-                                            {{-- <img src="{{ asset('img/potato.jpeg') }}" class="img-fluid rounded-start main_img" alt="..."> --}}
                                             <img src="https://drobbomullo.com/images/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
 
                                         </div>
-                                      <div class="product_title_box">
-                                        {{-- <h3>{{ $product->item_name }}</h3>
-                                        <p>Weight : {{ $product->weight }}</p> --}}
-                                      </div>
                                     </div>
                                     <div class="col-md-8 align-self-center product_details" style="">
                                       <div class="card-body">

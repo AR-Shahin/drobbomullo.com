@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
+
         .bg_red{
         background: #78e08f5e;
         }
@@ -22,15 +23,7 @@
         .searchingItems{
             cursor: pointer;
         }
-        #searchValue{
-            background: #dff9fb;
-            position: absolute;
-            right: 0;
-            top: 8%;
-            right: 5%;
-            padding: 5px;
-            z-index: 100;
-        }
+      
         .homeSection{
             background: #c7ecee;
             padding: 0px;
@@ -50,6 +43,9 @@
                 top: 21%;
                 left: 0;
                 right: 0;
+            }
+            .card-body{
+                padding: 5px;
             }
         }
             </style>
@@ -177,14 +173,14 @@ footer p{
               </li>
 
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search Anything..." aria-label="Search" id="searchKey">
+            <form class="d-flex" role="search" method="GET" action="{{ route('home') }}">
+              <input class="form-control me-2" type="search" placeholder="Search Anything..." aria-label="Search" id="searchKey" name="key">
               <button class="btn btn-outline-success" type="submit">
                 <i class="fa fa-search"></i>
               </button>
-              <button class="btn btn-sm btn-outline-success" id="clearBtn" style="margin-left: 5px">
+              {{-- <button class="btn btn-sm btn-outline-success" id="clearBtn" style="margin-left: 5px">
                 <i class="fa fa-refresh"></i>
-              </button>
+              </button> --}}
             </form>
           </div>
         </div>
@@ -212,7 +208,7 @@ footer p{
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.3/axios.min.js"></script>
-    <script>
+    {{-- <script>
         const log = (el = "Ok") => console.log(el);
         const base_url = window.location.origin;
         const base_url_admin = `${window.location.origin}/admin`;
@@ -261,7 +257,7 @@ footer p{
             searchKey.value = "";
             searchValue.style.display = 'none';
         })
-    </script>
+    </script> --}}
     @stack('js')
 
   </body>
