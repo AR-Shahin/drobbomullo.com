@@ -13,7 +13,8 @@ class HomeController extends Controller
         $categories =  MainTable::select('category')->groupBy('category')->get();
         $products = MainTable::
                         when($request->key, fn($q) => $q->where("item_name", "like", "%{$request->key}%"))
-                        ->paginate(10);
+                        ->paginate(10)
+                        ->withQueryString($request->all());
         return view('frontend.home',compact('products','categories'));
     }
 
