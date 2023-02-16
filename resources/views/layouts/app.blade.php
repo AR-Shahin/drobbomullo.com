@@ -38,6 +38,10 @@
         .each_item .card-body , .product_details{
             background:  #78e08f5e;
         }
+        #searchKey,.searchBtn{
+            background: transparent;
+            border: 1px solid #DFF9FA
+        }
         @media (min-width:0) and (max-width:575px){
             #searchValue{
                 top: 21%;
@@ -174,8 +178,8 @@ footer p{
 
             </ul>
             <form class="d-flex" role="search" method="GET" action="{{ route('home') }}">
-              <input class="form-control me-2" type="search" placeholder="Search Anything..." aria-label="Search" id="searchKey" name="key" value="{{ request('key') }}">
-              <button class="btn btn-outline-success" type="submit">
+              <input class="form-control me-2" type="search" placeholder="Search Anything ..." aria-label="Search" id="searchKey" name="key" value="{{ request('key') }}">
+              <button class="btn btn-outline-success searchBtn" type="submit">
                 <i class="fa fa-search"></i>
               </button>
               {{-- <button class="btn btn-sm btn-outline-success" id="clearBtn" style="margin-left: 5px">
