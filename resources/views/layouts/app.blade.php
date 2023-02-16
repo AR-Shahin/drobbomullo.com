@@ -23,7 +23,7 @@
         .searchingItems{
             cursor: pointer;
         }
-      
+
         .homeSection{
             background: #c7ecee;
             padding: 0px;
@@ -174,7 +174,7 @@ footer p{
 
             </ul>
             <form class="d-flex" role="search" method="GET" action="{{ route('home') }}">
-              <input class="form-control me-2" type="search" placeholder="Search Anything..." aria-label="Search" id="searchKey" name="key">
+              <input class="form-control me-2" type="search" placeholder="Search Anything..." aria-label="Search" id="searchKey" name="key" value="{{ request('key') }}">
               <button class="btn btn-outline-success" type="submit">
                 <i class="fa fa-search"></i>
               </button>
