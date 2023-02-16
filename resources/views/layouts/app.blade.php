@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <style>
-ul{
-    list-style: none;
-}
+        .list-group-item,.dropdown-menu{
+            border: none;
+            padding-bottom: 2px;
+        }
+
+        ul{
+            list-style: none;
+        }
 .searchingItems{
             cursor: pointer;
         }
@@ -201,7 +206,7 @@ footer p{
         searchValue.style.display = 'none';
         searchKey.addEventListener("keyup",async function() {
             let key = this.value;
-            
+
             if(key){
                 let url = `${base_url}/auto-search-product/${key}`;
                 searchValue.style.display = 'block';
