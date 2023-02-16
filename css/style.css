@@ -11,6 +11,12 @@ body{
 .bg_red{
     background: #dff9fb;
 }
+#searchValue{
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 2%;
+}
 section{
     padding: 40px 0;
 }

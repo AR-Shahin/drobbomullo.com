@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class MainTable extends Model
 {
     use HasFactory;
+    protected $with = [
+        "link","price"
+    ];
     protected $table = "main_table";
     protected $primaryKey = "item_name";
     protected $keyType = "string";
