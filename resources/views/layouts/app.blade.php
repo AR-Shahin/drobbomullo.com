@@ -78,7 +78,7 @@
             border: 1px solid transparent;
         }
         .active>.page-link:link{
-            
+
         }
         .each_item .card-body , .product_details{
             /* background:  #78e08f5e; */
@@ -99,110 +99,7 @@
 
             }
         }
-            </style>
-    <style>
-        /*
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-   background: #fceebde8;
-}
-.bg_red{
-    background: #FF686D;
-}
-section{
-    padding: 40px 0;
-}
-.main_img{
-    width: 50%;
-    transition: .6s;
-}
-.product_img_box:hover .main_img{
-    transform: scale(1.2);
-}
-.product_img_box{
-    position: relative;
-}
-.product_title_box{
-    background: #2c3e5089;
-    color: #ecf0f1;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    cursor: pointer;
-    transition: .6s;
-}
-.product_title_box:hover {
-    transform: scale(1.1);
-}
-
-.shop_logo{
-    width: 100px;
-    height: 30px;
-}
-
-.shop_box{
-    display: flex;
-    justify-content: space-around;
-}
-.product_info p{
-    margin-bottom: 5px;
-}
-.shop p{
-    margin-bottom: 0;
-}
-.shop img{
-    margin-bottom: 10px;
-}
-footer{
-    padding: 10px 0;
-}
-footer p{
-    margin-bottom: 0;
-}
-
-@media (min-width:0) and (max-width:575px){
-    section{
-        padding: 10px 0;
-    }
-    .card-body{
-        padding: 0 5px;
-    }
-    .shop_box{
-        text-align: center;
-        width: 100%;
-        overflow-y: scroll;
-
-    }
-    .shop_logo{
-        width: 60px;
-        height: 20px;
-    }
-    .shop{
-        border-top: 1px solid #ccc;
-        padding: 4px 0;
-    }
-
-}
-
-@media (min-width:575.1px) and (max-width:767px){
-
-
-}
-
-@media (min-width:767.1px) and (max-width:991px){
-
-}
-@media (min-width:991.1px) and (max-width:1200px){
-
-}
-*/
-    </style>
+        </style>
     @stack('css')
 
   </head>
@@ -210,9 +107,12 @@ footer p{
     <div style="overflow:hidden">
     <nav class="navbar navbar-expand-lg bg-body--tertiary bg_red">
         <div class="container">
-          <a class="navbar-brand" href="/">
-            <img src="https://drobbomullo.com/images/logo-2.png" alt="" class="logo">
-            </a>
+            <div>
+                <a class="navbar-brand" href="/">
+                  <img src="https://drobbomullo.com/images/logo-2.png" alt="" class="logo">
+                  <img src="https://drobbomullo.com/images/side-logo.png" alt="" class="side_logo">
+                </a>
+            </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
