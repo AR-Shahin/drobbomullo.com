@@ -10,7 +10,7 @@
     <style>
 
         .bg_red{
-        background: #f1f3f4;
+            background: #f1f3f4;
         }
         .list-group-item,.dropdown-menu{
             border: none;
@@ -23,12 +23,20 @@
         ul{
             list-style: none;
         }
+
         .logo{
             width: 65px;
             /* height: 80px; */
         }
+        nav li a.nav-link:hover{
+            color: #74B945;
+        }
         .searchingItems{
             cursor: pointer;
+        }
+        #searchKey,.searchBtn{
+            background: transparent;
+            border: 1px solid #74B945
         }
         .list-group-item{
             background: none;
@@ -42,22 +50,40 @@
             padding-top: 10px;
         }
         .homeLeft{
-            background: #597e5b;
-            border-radius: 5px;
+            background: #f1f3f4;
+            color: #597e5b;
         }
         .homeLeft h5{
-            color: #fff;
+            color: #74B945;
+        }
+        .homeLeft a{
+            color: #74B945;
+        }
+        .homeLeft a:hover{
+            color: #27ae60;
+        }
+        .homeLeft a.show{
+            color: #E22427;
         }
         .homeRight h5{
-            color: #597e5b;
+            color: #74B945;
+        }
+        .active>.page-link, .page-link{
+            color: #27ae60;
+            /* border: 1px solid #27ae60; */
+        }
+        .active>.page-link, .page-link.active{
+            color: #fff;
+            background: #74B945;
+            border: 1px solid transparent;
+        }
+        .active>.page-link:link{
+            
         }
         .each_item .card-body , .product_details{
             /* background:  #78e08f5e; */
         }
-        #searchKey,.searchBtn{
-            background: transparent;
-            border: 1px solid #597e5b
-        }
+
         .card-body{
             /* background:  #78e08f5e; */
 
@@ -193,7 +219,7 @@ footer p{
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">দ্রব্যমূল্য</a>
+                <a class="nav-link" aria-current="page" href="/">দ্রব্যমূল্য</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">যোগাযোগ</a>
