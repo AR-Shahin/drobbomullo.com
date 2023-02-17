@@ -98,5 +98,8 @@
             padding: 5px;
 
         }
+        .categories{
+            margin-left: -15px;
+        }
     }
 </style>
