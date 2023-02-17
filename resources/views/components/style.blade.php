@@ -17,6 +17,9 @@
     a.btn-link{
         color: #74B945;
     }
+    a.btn-link:hover{
+        color: #E22427;
+    }
     .logo,.side_logo{
         width: 65px;
         /* height: 80px; */
