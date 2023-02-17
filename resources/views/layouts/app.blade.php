@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="https://www.codeshikhi.org/logo/logo.png" />
-    <title>দ্রব্যমূল্য.com | @yield('title')</title>
+    <x-meta-info/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -117,23 +114,10 @@
   <body>
     <div style="overflow:hidden">
         <x-navbar/>
-
-
-
+        
       @yield('body')
 
-      <footer class="bg_red text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 ">
-              <p class="p-0">Copyright - @ {{ date('Y') }} </p>
-            </div>
-            <div class=" col-12 col-md-6">
-              <p class="p-0">Design and Developed by <a class="btn-link" target="_blank" href="https://www.facebook.com/arshahin200">AR Shahin</a> </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+     <x-footer/>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.3/axios.min.js"></script>
