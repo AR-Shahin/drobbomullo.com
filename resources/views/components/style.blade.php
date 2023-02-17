@@ -20,13 +20,15 @@
     a.btn-link:hover{
         color: #E22427;
     }
-    .logo,.side_logo{
+    .logo {
         width: 65px;
-        /* height: 80px; */
     }
     .side_logo{
-        margin-top: 15px;
-        margin-left: -15px;
+        width: 140px;
+    }
+    .side_logo{
+        margin-top: 20px;
+        margin-left: -10px;
     }
     nav li a.nav-link:hover{
         color: #74B945;
