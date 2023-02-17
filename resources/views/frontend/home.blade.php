@@ -53,7 +53,7 @@
             <!-- Products -->
             <div class="col-md-10 col-12 homeRight" >
                 <h5 class="my-2"><i class="fa fa-shop"></i> Products ({{ $products->total() }})</h5>
-                @if (isset($cat))
+                @if (isset($cat) && $cat != "")
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
