@@ -21,7 +21,7 @@
             list-style: none;
         }
         .logo{
-            width: 100px;
+            width: 90px;
             /* height: 80px; */
         }
         .searchingItems{
@@ -50,7 +50,8 @@
             border: 1px solid #DFF9FA
         }
         .card-body{
-            background:  #78e08f5e;
+            /* background:  #78e08f5e; */
+
         }
         @media (min-width:0) and (max-width:575px){
             #searchValue{
