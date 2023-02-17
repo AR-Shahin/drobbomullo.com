@@ -66,6 +66,9 @@
         .homeLeft a:hover{
             color: #27ae60;
         }
+        .homeLeft .dropdown-menu a:active{
+            background: transparent;
+        }
         .homeLeft a.show{
             color: #E22427;
         }
