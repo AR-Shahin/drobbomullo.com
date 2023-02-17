@@ -17,7 +17,7 @@
             padding-bottom: 2px;
         }
         body{
-             background: #f1f3f4;
+             background: #fff;
         }
 
         ul{
@@ -32,14 +32,14 @@
         }
 
         .homeSection{
-            background: #c7ecee;
+            /* background: #c7ecee; */
             padding: 0px;
         }
         .homeSection h5{
             padding-top: 10px;
         }
         .homeLeft{
-            background: #dff9fb;
+            background: #597e5b;
             border-radius: 5px;
         }
         .homeRight{
@@ -50,7 +50,7 @@
         }
         #searchKey,.searchBtn{
             background: transparent;
-            border: 1px solid #DFF9FA
+            border: 1px solid #597e5b
         }
         .card-body{
             /* background:  #78e08f5e; */
