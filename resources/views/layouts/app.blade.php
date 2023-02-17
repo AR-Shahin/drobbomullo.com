@@ -20,6 +20,9 @@
         ul{
             list-style: none;
         }
+        .logo{
+            width: 120px;
+        }
         .searchingItems{
             cursor: pointer;
         }
