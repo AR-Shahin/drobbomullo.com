@@ -21,7 +21,7 @@
             list-style: none;
         }
         .logo{
-            width: 90px;
+            width: 65px;
             /* height: 80px; */
         }
         .searchingItems{
