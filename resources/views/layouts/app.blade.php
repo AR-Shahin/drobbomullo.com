@@ -30,7 +30,10 @@
         .searchingItems{
             cursor: pointer;
         }
-
+        .list-group-item{
+            background: none;
+            color: #fff;
+        }
         .homeSection{
             /* background: #c7ecee; */
             padding: 0px;
@@ -41,6 +44,9 @@
         .homeLeft{
             background: #597e5b;
             border-radius: 5px;
+        }
+        .homeLeft h5{
+            color: #fff;
         }
         .homeRight{
 
