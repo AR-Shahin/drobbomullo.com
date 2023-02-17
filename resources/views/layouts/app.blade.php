@@ -48,8 +48,8 @@
         .homeLeft h5{
             color: #fff;
         }
-        .homeRight{
-
+        .homeRight h5{
+            color: #597e5b;
         }
         .each_item .card-body , .product_details{
             /* background:  #78e08f5e; */
