@@ -10,11 +10,14 @@
     <style>
 
         .bg_red{
-        background: #78e08f5e;
+        background: #f1f3f4;
         }
         .list-group-item,.dropdown-menu{
             border: none;
             padding-bottom: 2px;
+        }
+        body{
+             background: #f1f3f4;
         }
 
         ul{
