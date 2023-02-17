@@ -21,7 +21,8 @@
             list-style: none;
         }
         .logo{
-            width: 120px;
+            width: 80px;
+            /* height: 80px; */
         }
         .searchingItems{
             cursor: pointer;
