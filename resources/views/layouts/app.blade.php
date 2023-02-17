@@ -35,12 +35,18 @@
             background: #dff9fb;
             border-radius: 5px;
         }
+        .homeRight{
+
+        }
         .each_item .card-body , .product_details{
-            background:  #78e08f5e;
+            /* background:  #78e08f5e; */
         }
         #searchKey,.searchBtn{
             background: transparent;
             border: 1px solid #DFF9FA
+        }
+        .card-body{
+            background:  #78e08f5e;
         }
         @media (min-width:0) and (max-width:575px){
             #searchValue{
@@ -50,6 +56,7 @@
             }
             .card-body{
                 padding: 5px;
+
             }
         }
             </style>
@@ -163,7 +170,9 @@ footer p{
     <div style="overflow:hidden">
     <nav class="navbar navbar-expand-lg bg-body--tertiary bg_red">
         <div class="container">
-          <a class="navbar-brand" href="/">দ্রব্যমূল্য.com</a>
+          <a class="navbar-brand" href="/">
+            <img src="https://drobbomullo.com/images/logo.png" alt="">
+            </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

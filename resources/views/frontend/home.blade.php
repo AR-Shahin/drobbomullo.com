@@ -79,13 +79,13 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="row g-0">
-                                    <div class="col-md-4 product_img_box align-self-center">
+                                    <div class="col-md-4 product_img_box align-self-center ">
                                         <div class="product_img text-center">
                                             <img src="https://drobbomullo.com/images/{{ $product->image }}" class="img-fluid rounded-start main_img" alt="...">
 
                                         </div>
                                     </div>
-                                    <div class="col-md-8 align-self-center product_details" style="">
+                                    <div class="col-md-8 align-self-center product_details" >
                                       <div class="card-body">
                                         <div class="product_info">
                                             <h3>{{ $product->item_name }}</h3>
