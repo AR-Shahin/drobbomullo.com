@@ -7,7 +7,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 col-12 homeLeft">
-                <h5 class="my-2">Categories</h5>
+                <h5 class="my-2"><i class="fa fa-truck"></i> Categories</h5>
                 <div class="categories">
                     <ul class="list-group">
                       @foreach ($categories as $category)
@@ -43,7 +43,7 @@
 
             <!-- Products -->
             <div class="col-md-10 col-12 homeRight" >
-                <h5 class="my-2">Products ({{ $products->total() }})</h5>
+                <h5 class="my-2"><i class="fa fa-shop"></i> Products ({{ $products->total() }})</h5>
                 @if (isset($cat))
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
