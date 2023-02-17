@@ -49,7 +49,7 @@
                   <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item" aria-current="page">{{ $cat }}</li>
-                    <li class="breadcrumb-item" aria-current="page">{{ ucfirst($subcat->subcategory) }}</li>
+                    <li class="breadcrumb-item" aria-current="page">{{ ucfirst($tempSubCat) }}</li>
                   </ol>
                 </nav>
                 @endif

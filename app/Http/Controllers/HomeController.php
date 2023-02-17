@@ -25,7 +25,8 @@ class HomeController extends Controller
                                 whereCategory($cat)
                                 ->whereSubcategory($subcat)
                                 ->paginate(10);
-        return view('frontend.home',compact('products','categories','cat',"subcat"));
+        $tempSubCat =  $subcat;
+        return view('frontend.home',compact('products','categories','cat','tempSubCat'));
     }
 
     public function search($key)
