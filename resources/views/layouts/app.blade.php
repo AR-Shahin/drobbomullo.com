@@ -24,9 +24,13 @@
             list-style: none;
         }
 
-        .logo{
+        .logo,.side_logo{
             width: 65px;
             /* height: 80px; */
+        }
+        .side_logo{
+            margin-top: 15px;
+            margin-left: -15px;
         }
         nav li a.nav-link:hover{
             color: #74B945;
