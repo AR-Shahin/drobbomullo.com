@@ -1,4 +1,7 @@
 <style>
+    .ar_active{
+        color: #E22427!important;
+    }
     .bg_red{
         background: #f1f3f4;
     }

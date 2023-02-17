@@ -19,17 +19,26 @@
                         dropdown
                         @endif
                         ">
-                          <a class="nav-link
+                          <a class="nav-link @if ($category->category == $cat)
+                            ar_active
+                            @endif
+
                           @if($subcategories->count() > 0)
                           dropdown-toggle
                           @endif
+
                           " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ ucfirst($category->category) }}
                           </a>
                           @if($subcategories->count() > 0)
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu ">
                               @foreach ($subcategories as $subcat)
-                              <li><a class="dropdown-item" href="{{ route("cat_subcat",
+                              <li><a class="dropdown-item
+                                @if ($subcat->subcategory == $tempSubCat)
+                            ar_active
+                            @endif
+
+                              " href="{{ route("cat_subcat",
                               ["cat" => $category->category,
                               "subcat" => $subcat->subcategory]) }}">{{ ucfirst($subcat->subcategory) }}</a></li>
                               @endforeach
