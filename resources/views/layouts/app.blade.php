@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://www.codeshikhi.org/logo/logo.png" />
     <title>দ্রব্যমূল্য.com | @yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
@@ -115,44 +116,9 @@
   </head>
   <body>
     <div style="overflow:hidden">
-    <nav class="navbar navbar-expand-lg bg-body--tertiary bg_red">
-        <div class="container">
-            <div>
-                <a class="navbar-brand" href="/">
-                  <img src="https://drobbomullo.com/images/logo-2.png" alt="" class="logo">
-                  <img src="https://drobbomullo.com/images/side-logo.png" alt="" class="side_logo">
-                </a>
-            </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">দ্রব্যমূল্য</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">যোগাযোগ</a>
-              </li>
+        <x-navbar/>
 
-            </ul>
-            <form class="d-flex" role="search" method="GET" action="{{ route('home') }}">
-              <input class="form-control me-2" type="search" placeholder="Search Anything ..." aria-label="Search" id="searchKey" name="key" value="{{ request('key') }}">
-              <button class="btn btn-outline-success searchBtn" type="submit">
-                <i class="fa fa-search"></i>
-              </button>
-              {{-- <button class="btn btn-sm btn-outline-success" id="clearBtn" style="margin-left: 5px">
-                <i class="fa fa-refresh"></i>
-              </button> --}}
-            </form>
-          </div>
-        </div>
-      </nav>
-      <ul id="searchValue">
-        {{-- <li><span>Lorem ipsum dolor sit amet.</span></li>
-        <li><span>Lorem ipsum dolor sit amet.</span></li>
-        <li><span>Lorem ipsum dolor sit amet.</span></li> --}}
-    </ul>
+
 
       @yield('body')
 
