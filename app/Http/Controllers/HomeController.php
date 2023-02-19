@@ -5,11 +5,12 @@ namespace App\Http\Controllers;
 use App\Models\MainTable;
 use Illuminate\Http\Request;
 
+
 class HomeController extends Controller
 {
     public function index(Request $request)
     {
-        
+
         $categories =  MainTable::select('category')->groupBy('category')->get();
         $products = MainTable::
                         when($request->key, fn($q) => $q->where("item_name", "like", "%{$request->key}%"))

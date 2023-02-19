@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -14,3 +15,5 @@ Route::get('auto-search-product/{key}',[HomeController::class,'search'])->name('
 Route::get("/test",function (){
     return 1;
 });
+
+Route::get('contact',[ContactController::class,'index'])->name('contact');
