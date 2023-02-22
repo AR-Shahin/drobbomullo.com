@@ -16,7 +16,7 @@
             <a class="nav-link" aria-current="page" href="/">দ্রব্যমূল্য</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">যোগাযোগ</a>
+            <a class="nav-link" href="{{ route('contact') }}">যোগাযোগ</a>
           </li>
 
         </ul>
