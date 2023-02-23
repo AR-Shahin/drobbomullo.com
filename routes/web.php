@@ -3,7 +3,7 @@
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-
+use App\Http\Controllers\OfferController;
 
 Route::get('category/{cat}/subcategory/{subcat}',[HomeController::class,"categorySubcategory"])->name('cat_subcat');
 
@@ -17,3 +17,4 @@ Route::get("/test",function (){
 });
 
 Route::get('contact',[ContactController::class,'index'])->name('contact');
+Route::get('offer',[OfferController::class,'index'])->name('offer');

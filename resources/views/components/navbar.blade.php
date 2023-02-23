@@ -18,7 +18,9 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ route('contact') }}">যোগাযোগ</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('offer') }}">অফার</a>
+          </li>
         </ul>
         <form class="d-flex" role="search" method="GET" action="{{ route('home') }}">
           <input class="form-control me-2" type="search" placeholder="Search Anything ..." aria-label="Search" id="searchKey" name="key" value="{{ request('key') }}">
