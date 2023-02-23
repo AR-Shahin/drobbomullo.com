@@ -1,5 +1,5 @@
 <style>
-    .ar_active{
+    .ar_active,.active{
         color: #E22427!important;
     }
     .bg_red{

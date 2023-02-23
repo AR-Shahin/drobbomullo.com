@@ -12,15 +12,25 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">দ্রব্যমূল্য</a>
+            <a class="nav-link @if (routeActive('home'))
+                active
+            @endif" aria-current="page" href="/">দ্রব্যমূল্য</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="{{ route('contact') }}">যোগাযোগ</a>
+            <a class="nav-link @if (routeActive('contact'))
+            active
+            @endif" href="{{ route('contact') }}">যোগাযোগ</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="{{ route('offer') }}">অফার</a>
+            <a class="nav-link @if (routeActive('offer'))
+            active
+            @endif" href="{{ route('offer') }}">অফার</a>
           </li>
+
         </ul>
         <form class="d-flex" role="search" method="GET" action="{{ route('home') }}">
           <input class="form-control me-2" type="search" placeholder="Search Anything ..." aria-label="Search" id="searchKey" name="key" value="{{ request('key') }}">

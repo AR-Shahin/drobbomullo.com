@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\MainTable;
+use Illuminate\Support\Facades\Route;
 
 function hello(){
     return "Hello";
@@ -12,4 +13,10 @@ function getSubcategories($name)
                         ->select('subcategory')
                         ->groupBy('subcategory')
                         ->get();
+}
+
+
+function routeActive($name) :bool
+{
+    return Route::is($name);
 }
