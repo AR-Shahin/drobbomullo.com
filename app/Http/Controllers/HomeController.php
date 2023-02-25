@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index(Request $request)
     {
 
-        $categories =  MainTable::select('category')->groupBy('category')->get();
+        $categories =  MainTable::fetchCategories();
         $products = MainTable::
                         when($request->key, fn($q) => $q->where("item_name", "like", "%{$request->key}%"))
                         ->paginate(10)
@@ -23,7 +23,7 @@ class HomeController extends Controller
 
     public function categorySubcategory($cat,$subcat)
     {
-        $categories =  MainTable::select('category')->groupBy('category')->get();
+        $categories =  MainTable::fetchCategories();
         $products = MainTable::
                                 whereCategory($cat)
                                 ->whereSubcategory($subcat)
@@ -32,9 +32,4 @@ class HomeController extends Controller
         return view('frontend.home',compact('products','categories','cat','tempSubCat'));
     }
 
-    public function search($key)
-    {
-        $products = MainTable::where("item_name","like","%$key%")->get();
-        return $products;
-    }
 }

@@ -15,6 +15,10 @@ class MainTable extends Model
     protected $primaryKey = "item_name";
     protected $keyType = "string";
 
+    public static function fetchCategories()
+    {
+        return self::select('category')->groupBy('category')->get();
+    }
     public function link(){
         return $this->belongsTo(Link::class,"item_name","item_name");
     }
