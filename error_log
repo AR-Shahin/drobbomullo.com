@@ -3,3 +3,214 @@
 Stack trace:
 #0 {main}
   thrown in /home/drobbomu/public_html/ars.drobbomullo.com/public/index.php on line 34
+[16-Feb-2023 00:28:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Extra Virgin Olive Oil', 'Food', 'cooking', '500 ml', 'Well's-Extra-Virgin-...' at line 2 in /home/drobbomu/public_html/main_table.php:51
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 51
+[16-Feb-2023 00:29:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Crystal Clear Fruits Candy', 'Food', 'candy', '180 gm', 'Fox's-Crystal-Clea...' at line 2 in /home/drobbomu/public_html/main_table.php:51
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 51
+[16-Feb-2023 00:29:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Crystal Clear Fruits Candy Pack', 'Food', 'candy', '125 gm', 'Fox's-Crystal...' at line 2 in /home/drobbomu/public_html/main_table.php:51
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 51
+[16-Feb-2023 00:29:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Crystal Clear Fruits Candy Pack', 'Food', 'candy', '90 gm', 'Fox's-Crystal-...' at line 2 in /home/drobbomu/public_html/main_table.php:51
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(51): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 51
+[16-Feb-2023 07:38:06 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/drobbomu/public_html/paikareeupdate.php on line 20
+[16-Feb-2023 07:40:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE item_name = 'Broiler Chicken Skin Off ± 50 gm'' at line 1 in /home/drobbomu/public_html/paikareeupdate.php:20
+Stack trace:
+#0 /home/drobbomu/public_html/paikareeupdate.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/paikareeupdate.php on line 20
+[16-Feb-2023 07:40:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE item_name = 'Broiler Chicken Skin Off ± 50 gm'' at line 1 in /home/drobbomu/public_html/paikareeupdate.php:20
+Stack trace:
+#0 /home/drobbomu/public_html/paikareeupdate.php(20): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/paikareeupdate.php on line 20
+[16-Feb-2023 08:29:05 UTC] PHP Warning:  Undefined array key "category" in /home/drobbomu/public_html/main_table.php on line 18
+[16-Feb-2023 08:29:05 UTC] PHP Warning:  Undefined array key "subcategory" in /home/drobbomu/public_html/main_table.php on line 19
+[16-Feb-2023 08:29:05 UTC] PHP Warning:  Undefined array key "weight" in /home/drobbomu/public_html/main_table.php on line 20
+[16-Feb-2023 08:29:05 UTC] PHP Warning:  Undefined array key "image" in /home/drobbomu/public_html/main_table.php on line 21
+[16-Feb-2023 08:29:05 UTC] PHP Warning:  Undefined array key "extra" in /home/drobbomu/public_html/main_table.php on line 22
+[16-Feb-2023 10:02:52 UTC] PHP Parse error:  syntax error, unexpected variable "$resultcheck" in /home/drobbomu/public_html/main_table.php on line 49
+[16-Feb-2023 10:03:33 UTC] PHP Parse error:  syntax error, unexpected variable "$resultcheck" in /home/drobbomu/public_html/main_table.php on line 49
+[16-Feb-2023 10:03:36 UTC] PHP Parse error:  syntax error, unexpected variable "$resultcheck" in /home/drobbomu/public_html/main_table.php on line 49
+[16-Feb-2023 10:04:01 UTC] PHP Parse error:  syntax error, unexpected variable "$resultcheck" in /home/drobbomu/public_html/main_table.php on line 49
+[17-Feb-2023 07:16:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Electronics Cleaner'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[17-Feb-2023 07:16:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Leather Care'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[17-Feb-2023 08:02:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Electronics Cleaner'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[17-Feb-2023 08:02:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Leather Care'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[19-Feb-2023 04:02:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'meenclick_price' in 'field list' in /home/drobbomu/public_html/meenaclickupdate.php:35
+Stack trace:
+#0 /home/drobbomu/public_html/meenaclickupdate.php(35): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/meenaclickupdate.php on line 35
+[19-Feb-2023 04:04:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'meenclick_price' in 'field list' in /home/drobbomu/public_html/meenaclickupdate.php:35
+Stack trace:
+#0 /home/drobbomu/public_html/meenaclickupdate.php(35): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/meenaclickupdate.php on line 35
+[25-Feb-2023 05:27:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Electronics Cleaner'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[25-Feb-2023 05:27:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Leather Care'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[25-Feb-2023 06:25:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Electronics Cleaner' AND weight ='500 ml'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[25-Feb-2023 06:25:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Leather Care' AND weight ='500 ml'' at line 1 in /home/drobbomu/public_html/main_table.php:48
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(48): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 48
+[27-Feb-2023 04:41:26 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:27 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:27 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:28 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:29 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:30 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:30 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:30 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:31 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:31 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:32 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:32 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:33 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:33 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:34 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:34 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:34 UTC] PHP Warning:  Undefined variable $resultcheck in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:41:34 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/drobbomu/public_html/main_table.php:53
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(53): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 53
+[27-Feb-2023 04:43:21 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:21 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:22 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:22 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:23 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:23 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:24 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:24 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:25 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:25 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:26 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:26 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:27 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:27 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:30 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:30 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:30 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:30 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:31 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:31 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:32 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:32 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 04:43:33 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 54
+[27-Feb-2023 04:43:33 UTC] PHP Warning:  Undefined array key "item_id" in /home/drobbomu/public_html/main_table.php on line 57
+[27-Feb-2023 08:10:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Electronics Cleaner' AND weight ='500 ml'' at line 1 in /home/drobbomu/public_html/main_table.php:71
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(71): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 71
+[27-Feb-2023 08:10:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Leather Care' AND weight ='500 ml'' at line 1 in /home/drobbomu/public_html/main_table.php:71
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(71): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 71
+[28-Feb-2023 03:35:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Electronics Cleaner' AND weight ='500 ml'' at line 1 in /home/drobbomu/public_html/main_table.php:71
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(71): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 71
+[28-Feb-2023 03:35:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Leather Care' AND weight ='500 ml'' at line 1 in /home/drobbomu/public_html/main_table.php:71
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(71): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 71
+[28-Feb-2023 03:40:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Crispy Fried Chicken Mix (Buy 2 Get 1 Free)' AND weight ='75 gm'' at line 1 in /home/drobbomu/public_html/main_table.php:71
+Stack trace:
+#0 /home/drobbomu/public_html/main_table.php(71): mysqli_query()
+#1 {main}
+  thrown in /home/drobbomu/public_html/main_table.php on line 71
