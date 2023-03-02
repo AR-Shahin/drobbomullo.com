@@ -8,17 +8,21 @@ use Illuminate\Database\Eloquent\Model;
 class MainTable extends Model
 {
     use HasFactory;
+
     protected $with = [
         "link","price"
     ];
+
     protected $table = "main_table";
     protected $primaryKey = "item_id";
-    // protected $keyType = "string";
+
+    protected $guarded = [];
 
     public static function fetchCategories()
     {
         return self::select('category')->groupBy('category')->get();
     }
+    
     public function link(){
         return $this->belongsTo(Link::class,"item_id","item_id");
     }
