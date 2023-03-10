@@ -4,6 +4,8 @@
 
 ## Drobbomullo.com
 
+drobbomullo.com is a product price comparing website. Where user can compare product price in several types of website's such as Paikari, Chaldal, Jogan etc. So that they can purchase product in cheapest price. The main goal of this website is time saving of an user. 
+
 
 
 
