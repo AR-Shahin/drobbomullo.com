@@ -122,7 +122,7 @@
                                                 <a target="_blank" href="{{ $product->link->meenaclick_link}}" class="btn-link">Buy</a>
                                             </div>
                                             <div class="shop">
-                                                <img src="{{ asset("img/jogan.png") }}" alt="" class="shop_logo">
+                                                <img src="{{ asset("img/shopno.png") }}" alt="" class="shop_logo">
                                                 <p><strong>৳ {{ $product->price->jogaan_price ?? "null"}}</strong></p>
                                                 <a target="_blank" href="{{ $product->link->jogaan_link}}" class="btn-link">Buy</a>
                                             </div>
