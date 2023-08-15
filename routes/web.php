@@ -19,14 +19,14 @@ Route::get('offer',[OfferController::class,'index'])->name('offer');
 
 
 Route::get('/mac', function () {
-   
+
 
     $platform = getPlatForm();
     echo $platform . "<br>";
     if($platform == "Mac"){
-      return "Mac " . shell_exec("ifconfig en0 | awk '/ether/{print $2}'");
+      return "Mac " . exec("ifconfig en0 | awk '/ether/{print $2}'");
     }elseif($platform == "Linux"){
-      return "Mac  " . shell_exec("ifconfig en0 | awk '/ether/{print $2}'");
+      return "Mac  " . exec("ifconfig en0 | awk '/ether/{print $2}'");
     }
    // return shell_exec("ifconfig en0 | awk '/ether/{print $2}'"); // Mac
     //return $mac = shell_exec("ip link | awk '{print $2}'"); // Linux
